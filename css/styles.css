@@ -1,0 +1,90 @@
+body{
+
+    font-family: "bahnschrift";
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgba(36, 38, 43, 1);
+    align-items: center;
+    color: white;
+}
+
+div.topbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(21, 23, 27, 1);
+}
+
+div.topbar > input{
+    background-color: rgba(228, 133, 21, 1);
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    width: 20rem;
+    height: 2rem;
+    padding-left: .75rem;
+}
+
+div.topbar > input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+div.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+div.navbar > span{
+    padding: 5px;
+    text-align: center;
+}
+
+div.navbar > span a{
+    font-size: 2rem;
+    border-radius: 1rem;
+    background-color: rgba(14, 16, 20, 1);
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: rgba(228, 133, 21, 1);
+    text-decoration: none;
+}
+
+div.navbar > span a.active{
+    color: white;
+    background-color: rgba(228, 133, 21, 1);
+}
+
+div.carousel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.carousel > span {
+    padding: 10px;
+    margin-right: 3px;
+    background-color: rgba(21, 23, 27, 1);
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+div.titres > h1{
+    border-radius: .5rem;
+    font-size: 2em;
+    background-color: rgba(21, 23, 27, 1);
+    padding: .5rem .75rem;
+}
+
+div.affiche{
+    border-radius: .5rem;
+    margin: 3px;
+    background-color: rgba(21, 23, 27, 1);
+    width: 100px;
+    height: 150px;
+}
